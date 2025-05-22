@@ -3,7 +3,7 @@ import functools
 import datetime
 import time
 
-# Define keys or parameter indexes considered sensitive (adjust as needed)
+# Define keys or parameter indexes considered sensitive ( as needed)
 SENSITIVE_KEYS = {'password', 'ssn', 'credit_card'}
 
 def mask_param(param):
